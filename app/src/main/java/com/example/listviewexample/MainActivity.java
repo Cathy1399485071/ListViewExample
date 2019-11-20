@@ -48,6 +48,16 @@ public class MainActivity extends AppCompatActivity  {
         player.add(new Player("Robert Covington",29, 6, "NBA Basketball", "https://www.foxsports.com/nba/robert-covington-player-stats"));
         player.add(new Player("Derrick Favors",28,9, "NBA Basketball", "https://www.foxsports.com/nba/derrick-favors-player-stats"));
         player.add(new Player("Patty Mills", 31, 10, "NBA Basketball", "https://www.foxsports.com/nba/patty-mills-player-stats"));
+        player.add(new Player("Kenrich Williams", 25, 1, "NBA Basketball", "https://www.foxsports.com/nba/kenrich-williams-player-stats"));
+        player.add(new Player("Clint Capela",25,5, "NBA Basketball", "https://www.foxsports.com/nba/clint-capela-player-stats"));
+        player.add(new Player("Matisse Thybulle",23, 0, "NBA Basketball", "https://www.foxsports.com/nba/matisse-thybulle-player-stats"));
+        player.add(new Player("Tyrone Wallace",25, 2,"NBA Basketball", "https://www.foxsports.com/nba/tyrone-wallace-player-stats"));
+        player.add(new Player("Dennis Smith", 23, 2, "NBA Basketball", "https://www.foxsports.com/nba/dennis-smith-jr-player-stats"));
+        player.add(new Player("Austin Rivers",23, 7, "NBA Basketball", "https://www.foxsports.com/nba/austin-rivers-player-stats"));
+        player.add(new Player("Jahlil Okafor", 24, 4, "NBA Basketball", "https://www.foxsports.com/nba/jahlil-okafor-player-stats"));
+        player.add(new Player("Cedi Osman", 24, 2, "NBA Basketball", "https://www.foxsports.com/nba/cedi-osman-player-stats"));
+        player.add(new Player("Eric Mika", 24, 0, "NBA Basketball", "https://www.foxsports.com/nba/eric-mika-player-stats"));
+        player.add(new Player("Walter Lemon", 27, 2, "NBA Basketball", "https://www.foxsports.com/nba/walt-lemon-jr-player-stats"));
         //player.add(new Player(""))
         return player;
     }
