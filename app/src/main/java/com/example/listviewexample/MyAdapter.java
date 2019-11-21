@@ -32,7 +32,6 @@ public class MyAdapter extends ArrayAdapter<Player> {
         if (single_item_view == null)
             single_item_view = inflater.inflate(R.layout.single_item, null);
         player=listOfPlayers.get(position);
-
         //Todo get single player using position and listOfPlayers
         TextView name = single_item_view.findViewById(R.id.name);
         name.setText(player.getName());
@@ -42,6 +41,8 @@ public class MyAdapter extends ArrayAdapter<Player> {
         worth.setText(player.getWorth()+"");
         TextView sport = single_item_view.findViewById(R.id.main_sport);
         sport.setText(player.getMain_sport());
+        ImageView picture=single_item_view.findViewById(R.id.picture);
+        picture.setImageResource(player.getPictureAddress());
         return  single_item_view;
     }
 }
