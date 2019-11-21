@@ -7,7 +7,6 @@ public class Player {
     int age;
     double worth;
     String main_sport;
-
     String url;
     int pictureAddress;
 
@@ -32,10 +31,12 @@ public class Player {
         this.main_sport=main_sport;
         this.url= url;
         this.pictureAddress=pictureAddress;
+
     }
 
     public void setPicture(ImageView picture) {
         this.picture = picture;
+
     }
 
     public void setName(String name) {
